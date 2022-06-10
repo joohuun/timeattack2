@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>티아이티엘이</title>
+</head>
+<body>
+
+<ul class="navbar-nav mr-auto">
+    <li class="nav-item" disabled>
+        <span class="nav-link">
+            {{ auth_user.email }} 님 반갑습니다! {{ category.name }}
+        </span>
+    </li>
+</ul>
+
+{#<div>#}
+{#    <form>#}
+{#        {% for ct in category %}#}
+{#            <div>#}
+{#                {{ ct.name }}#}
+{#            </div>#}
+{#        {% endfor %}#}
+{#    </form>#}
+{#</div>#}
+</body>
+</html>
